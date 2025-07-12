@@ -9,7 +9,7 @@ function Header() {
   return (
     <div className='p-3 px-5 flex justify-between shadow-md'>
       <Link to={'/'}>
-        <img src='/logo.svg' width={100} height={100} alt='Logo' />
+        <img src='/logo.png' style={{height: 48, width: 'auto'}} alt='Logo' />
       </Link>
 
       {isSignedIn ? (
